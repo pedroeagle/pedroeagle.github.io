@@ -107,8 +107,8 @@ a:hover, a:focus, a:active {
   border: 2px solid #1784fb;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #0477f4 !important;
-  border-color: #0477f4 !important;
+  background: #45c46f !important;
+  border-color: #45c46f !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
@@ -121,9 +121,9 @@ a:hover, a:focus, a:active {
 }
 
 .btn-success {
-  background: #58ca7e;
+  background: #55b1fc;
   color: #fff;
-  border: 2px solid #58ca7e;
+  border: 2px solid #55b1fc;
 }
 .btn-success:hover, .btn-success:focus, .btn-success:active {
   background: #45c46f !important;
@@ -523,8 +523,8 @@ a:hover .lnk-icon-right {
 }
 #fh5co-offcanvass ul li a.call-to-action {
   margin-top: 40px;
-  border: 2px solid #58ca7e;
-  background: #58ca7e;
+  border: 2px solid #F45B69;
+  background: #F45B69;
   padding: 2px 15px !important;
   display: -moz-inline-stack;
   display: inline-block;
@@ -538,8 +538,8 @@ a:hover .lnk-icon-right {
 }
 #fh5co-offcanvass ul li a.call-to-action:hover {
   color: #fff;
-  border: 2px solid #45c46f;
-  background: #45c46f;
+  border: 2px solid #F45B69;
+  background: #F45B69;
 }
 #fh5co-offcanvass ul.fh5co-inline {
   width: 100%;
@@ -693,8 +693,8 @@ a:hover .lnk-icon-right {
 }
 .fh5co-nav-style-1 .fh5co-link-wrap ul li a.call-to-action, .fh5co-nav-style-2 .fh5co-link-wrap ul li a.call-to-action {
   margin-top: 2px;
-  border: 2px solid #58ca7e;
-  background: #58ca7e;
+  border: 2px solid #55b1fc;
+  background: #55b1fc;
   padding: 2px 15px !important;
   display: -moz-inline-stack;
   display: inline-block;

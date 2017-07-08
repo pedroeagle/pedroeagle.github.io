@@ -1,6 +1,8 @@
 # This is a README.md file...
 ## ...for the gsimas.github.io webpage
 
+> "O que me preocupa não é o barulho dos maus, mas sim, o silêncio dos bons" - **Albert Einstein**
+
 Hello, World! 
 
 This is the repository for **GSimas Github Webpage**. Right now I'm just testing the possibilities, wondering about what can be done 

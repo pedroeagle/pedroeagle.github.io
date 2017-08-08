@@ -7,4 +7,6 @@ HtmlAndEtc		- "Logo que, numa inovação, nos mostram alguma coisa de antigo, fica
 Campo-Logico-Minado	- "Quem pensa pouco, erra muito" - Leonardo Da Vinci
 GSimas.github.io	- "O que me preocupa não é o barulho dos maus, mas sim, o silêncio dos bons" - Albert Einstein
 Game-C			- "A vida é muito importante para ser levada a sério" - Oscar Wilde
-FlashAndEtc		- "A arte é a auto-expressão lutando para ser absoluta." Fernando Pessoa
+FlashAndEtc		- "A arte é a auto-expressão lutando para ser absoluta" - Fernando Pessoa
+EEL7045			- "Nós somos o que fazemos repetidamente. A excelência, portanto, não é um ato, mas um hábito" - Aristóteles
+EEL7801			- “The first thing you have to look at is why you want to design something. Without that you cannot have success. Then you work out the how and then the what...” - Camille Kokozaki

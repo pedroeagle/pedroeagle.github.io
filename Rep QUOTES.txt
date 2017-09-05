@@ -10,3 +10,4 @@ Game-C			- "A vida é muito importante para ser levada a sério" - Oscar Wilde
 FlashAndEtc		- "A arte é a auto-expressão lutando para ser absoluta" - Fernando Pessoa
 EEL7045			- "Nós somos o que fazemos repetidamente. A excelência, portanto, não é um ato, mas um hábito" - Aristóteles
 EEL7801			- “The first thing you have to look at is why you want to design something. Without that you cannot have success. Then you work out the how and then the what...” - Camille Kokozaki
+frc5800.github.io	- ""A vida é tão curta. Por que gastar um único dia dela em algo que não importa, por que não tentar fazer algo Grande?" - Dean Kamen

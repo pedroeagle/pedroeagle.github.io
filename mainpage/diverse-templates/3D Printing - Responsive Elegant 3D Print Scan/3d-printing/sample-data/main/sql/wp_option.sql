@@ -1,1 +1,0 @@
-DELETE FROM wp_options WHERE `option_name` LIKE 'widget_%'

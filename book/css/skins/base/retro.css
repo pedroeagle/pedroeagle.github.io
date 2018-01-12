@@ -14,9 +14,9 @@ h1, h2, h3
 
 /* General */
 .content h2 { font-size: 2.2em; }
-.content h2, .content h3 { position: relative; text-shadow: 0 30em 0 rgba(255,255,255, 1); }
+.content h2, .content h3 { position: relative; text-shadow: 0 1px 0 rgba(255,255,255, .8); }
 .content h2 span, .content h3 span { display:inline-block; position:relative; padding: .2em 1.6em; letter-spacing: 1px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
-.content h3 { font-size: 1.15em; font-weight: 700; margin: 2.2em 0 2.4em 10; }
+.content h3 { font-size: 1.15em; font-weight: 700; margin: 2.2em 0 2.4em 0; }
 .content h3 span { padding: .3em 0; letter-spacing: 2px; border-top: none; }
 
 /* Resume */

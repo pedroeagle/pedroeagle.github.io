@@ -12,6 +12,8 @@ please cite the developers, althought there is no LICENSE at all on this reposit
 
 You'll find more about me on my Github profile page: [CLICK HERE](https://github.com/GSimas)
 
-*Até mais* (I suppose you know how to read portuguese)
+*Até mais e obrigado pelos peixes* (I suppose you know how to read portuguese)
 
 Repository created yesterday - 2017
+
+Repository update today - 2018

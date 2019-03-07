@@ -115,6 +115,48 @@ $(function () {
 				stringsElement: $('.typing-subtitle15'),
 				loop: true
 			});
+
+			/* Typed subtitle16 */
+			$('.typed-subtitle16').typed({
+				stringsElement: $('.typing-subtitle16'),
+				loop: true
+			});
+
+			/* Typed subtitle17 */
+			$('.typed-subtitle17').typed({
+				stringsElement: $('.typing-subtitle17'),
+				loop: true
+			});
+
+			/* Typed subtitle18 */
+			$('.typed-subtitle18').typed({
+				stringsElement: $('.typing-subtitle18'),
+				loop: true
+			});
+
+			/* Typed subtitle19 */
+			$('.typed-subtitle19').typed({
+				stringsElement: $('.typing-subtitle19'),
+				loop: true
+			});
+
+			/* Typed subtitle20 */
+			$('.typed-subtitle20').typed({
+				stringsElement: $('.typing-subtitle20'),
+				loop: true
+			});
+
+			/* Typed subtitle21 */
+			$('.typed-subtitle21').typed({
+				stringsElement: $('.typing-subtitle21'),
+				loop: true
+			});
+
+			/* Typed subtitle22 */
+			$('.typed-subtitle22').typed({
+				stringsElement: $('.typing-subtitle22'),
+				loop: true
+			});
 			
 			/* Typed breadcrumbs */
 			$('.typed-bread').typed({

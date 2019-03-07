@@ -31,12 +31,97 @@ $(function () {
 				stringsElement: $('.typing-subtitle'),
 				loop: true
 			});
+
+			/* Typed subtitle2 */
+			$('.typed-subtitle2').typed({
+				stringsElement: $('.typing-subtitle2'),
+				loop: true
+			});
+
+			/* Typed subtitle3 */
+			$('.typed-subtitle3').typed({
+				stringsElement: $('.typing-subtitle3'),
+				loop: true
+			});
+
+			/* Typed subtitle4 */
+			$('.typed-subtitle4').typed({
+				stringsElement: $('.typing-subtitle4'),
+				loop: true
+			});
+
+			/* Typed subtitle5 */
+			$('.typed-subtitle5').typed({
+				stringsElement: $('.typing-subtitle5'),
+				loop: true
+			});
+
+			/* Typed subtitle6 */
+			$('.typed-subtitle6').typed({
+				stringsElement: $('.typing-subtitle6'),
+				loop: true
+			});
+
+			/* Typed subtitle7 */
+			$('.typed-subtitle7').typed({
+				stringsElement: $('.typing-subtitle7'),
+				loop: true
+			});
+
+			/* Typed subtitle8 */
+			$('.typed-subtitle8').typed({
+				stringsElement: $('.typing-subtitle8'),
+				loop: true
+			});
+
+			/* Typed subtitle9 */
+			$('.typed-subtitle9').typed({
+				stringsElement: $('.typing-subtitle9'),
+				loop: true
+			});
+
+			/* Typed subtitle10 */
+			$('.typed-subtitle10').typed({
+				stringsElement: $('.typing-subtitle10'),
+				loop: true
+			});
+
+			/* Typed subtitle11 */
+			$('.typed-subtitle11').typed({
+				stringsElement: $('.typing-subtitle11'),
+				loop: true
+			});
+
+			/* Typed subtitle12 */
+			$('.typed-subtitle12').typed({
+				stringsElement: $('.typing-subtitle12'),
+				loop: true
+			});
+
+			/* Typed subtitle13 */
+			$('.typed-subtitle13').typed({
+				stringsElement: $('.typing-subtitle13'),
+				loop: true
+			});
+
+			/* Typed subtitle14 */
+			$('.typed-subtitle14').typed({
+				stringsElement: $('.typing-subtitle14'),
+				loop: true
+			});
+
+			/* Typed subtitle15 */
+			$('.typed-subtitle15').typed({
+				stringsElement: $('.typing-subtitle15'),
+				loop: true
+			});
 			
 			/* Typed breadcrumbs */
 			$('.typed-bread').typed({
 				stringsElement: $('.typing-bread'),
 				showCursor: false
 			});
+
 		});
 	});
 	

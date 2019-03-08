@@ -3,7 +3,7 @@
 <head>
 	
 	<!-- Basic -->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Simas - Contato</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
@@ -24,14 +24,14 @@
 	<!--[if lt IE 9]>
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	
-	<!-- Favicons -->
-	<link rel="shortcut icon" href="images/favicons/favicon.ico">
-	<link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
-	
+<![endif]-->
+
+<!-- Favicons -->
+<link rel="shortcut icon" href="images/favicons/favicon.ico">
+<link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+
 </head>
 
 <body>	
@@ -68,7 +68,7 @@
 		
 		<!-- Wrapper -->
 		<div class="wrapper">
-		
+
 			<!-- Started -->
 			<div class="section started">
 				<div class="centrize full-width">
@@ -127,18 +127,20 @@
 							</p>
 						</div>
 					</div>
+
+
 					<div class="contact_form">
-						<form id="cform" method="post">
+						<form id="cform" action="https://formspree.io/gustavosimassilva@gmail.com method="POST">
 							<div class="group-val">
 								<input type="text" name="name" placeholder="Teu nome" />
 							</div>
 							<div class="group-val">
-								<input type="text" name="email" placeholder="Teu email" />
+								<input type="email" name="_replyto" placeholder="Teu email" />
 							</div>
 							<div class="group-val ct-gr">
 								<textarea name="message" placeholder="Tua mensagem"></textarea>
 							</div>
-							<a href="#" class="btn fill" onclick="$('#cform').submit(); return false;" data-text="Enviar mensagem">Enviar</a>
+							  <input class="btn fill" type="submit" value="Enviar">
 						</form>
 						<div class="alert-success">
 							<p>
@@ -146,9 +148,12 @@
 							</p>
 						</div>
 					</div>
+
+
+
 				</div>
 			</div>
-		
+
 		</div>
 		
 		<!-- Footer -->
@@ -173,7 +178,7 @@
 	</div>
 	
 	<!-- jQuery Scripts -->
-    <script src="js/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.validate.js"></script>
 	<script src="js/typed.js"></script>
 	<script src="js/magnific-popup.js"></script>

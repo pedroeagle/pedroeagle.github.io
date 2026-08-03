@@ -32,10 +32,10 @@
       background: var(--card); border: 1px solid var(--border);
       border-radius: 16px; padding: 20px 22px; margin: 16px 0;
     }
-    .app .emoji {
+    .app .icon {
       flex-shrink: 0; width: 60px; height: 60px; border-radius: 15px;
-      background: var(--accent); color: var(--accent-fg);
-      display: flex; align-items: center; justify-content: center; font-size: 30px;
+      background: #fff; object-fit: cover; display: block;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.15);
     }
     .app .body { flex: 1; min-width: 0; }
     .app h2 { font-size: 1.15rem; margin: 0 0 4px; }
@@ -59,7 +59,7 @@
     </header>
 
     <div class="app">
-      <div class="emoji">🎹</div>
+      <img class="icon" src="./icons/wheresthekey.png" alt="Where's the Key? icon" width="60" height="60" />
       <div class="body">
         <h2>Where's the Key?</h2>
         <p>Real-time musical key detection — play a few notes and instantly see the key you're in.</p>
@@ -71,7 +71,7 @@
     </div>
 
     <div class="app">
-      <div class="emoji">🎸</div>
+      <img class="icon" src="./icons/tuner.png" alt="Tuner icon" width="60" height="60" />
       <div class="body">
         <h2>Tuner</h2>
         <p>A precise chromatic tuner for guitar, bass, violin, ukulele and more.</p>
@@ -83,7 +83,7 @@
     </div>
 
     <div class="app">
-      <div class="emoji">📖</div>
+      <img class="icon" src="./icons/bibleeveryday.png" alt="Bíblia Todo Dia icon" width="60" height="60" />
       <div class="body">
         <h2>Bíblia Todo Dia</h2>
         <p>Daily Bible reading with reminders and audio, in Portuguese and English.</p>

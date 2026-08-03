@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pedro Igor — Apps</title>
+  <meta name="description" content="Where's the Key? — a real-time musical key detector for Android. Play a few notes and instantly see the key you're in." />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --card: #f6f6f9;
+      --text: #14121f;
+      --muted: #5b5870;
+      --accent: #1B0A8C;
+      --accent-fg: #ffffff;
+      --border: #e5e4ee;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d0b1a;
+        --card: #16132a;
+        --text: #f2f1f8;
+        --muted: #a6a2c0;
+        --accent: #6c5cff;
+        --accent-fg: #ffffff;
+        --border: #262143;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 64px; }
+    header { text-align: center; margin-bottom: 40px; }
+    .logo {
+      width: 88px; height: 88px; border-radius: 22px;
+      background: var(--accent); color: var(--accent-fg);
+      display: inline-flex; align-items: center; justify-content: center;
+      font-size: 44px; margin-bottom: 20px;
+    }
+    h1 { font-size: 2rem; margin: 0 0 8px; }
+    .tagline { color: var(--muted); font-size: 1.1rem; margin: 0; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      margin: 20px 0;
+    }
+    h2 { font-size: 1.25rem; margin: 0 0 12px; }
+    ul { margin: 0; padding-left: 20px; color: var(--muted); }
+    li { margin: 6px 0; }
+    .btn {
+      display: inline-block;
+      background: var(--accent); color: var(--accent-fg);
+      text-decoration: none; font-weight: 600;
+      padding: 12px 22px; border-radius: 10px;
+      margin-top: 8px;
+    }
+    footer {
+      text-align: center; color: var(--muted); font-size: 0.9rem;
+      margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border);
+    }
+    footer a { color: var(--accent); }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">🎹</div>
+      <h1>Where's the Key?</h1>
+      <p class="tagline">Real-time musical key detection for Android.</p>
+    </header>
+
+    <div class="card">
+      <h2>About the app</h2>
+      <p style="color: var(--muted); margin-top: 0;">
+        Where's the Key? listens through your microphone and tells you, in real time,
+        which musical key you're playing in. Point it at a piano, guitar, or any
+        instrument, play a few notes, and get an instant answer — no setup, no account.
+      </p>
+      <ul>
+        <li>Instant, on-device key detection</li>
+        <li>Works with any acoustic or digital instrument</li>
+        <li>Audio is processed live and never stored or uploaded</li>
+      </ul>
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.pedroeagledev.wheresthekey">Get it on Google Play</a>
+    </div>
+
+    <div class="card">
+      <h2>Legal</h2>
+      <ul>
+        <li><a href="./privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <footer>
+      Made by Pedro Igor · <a href="mailto:pedroigor.silva@outlook.com">pedroigor.silva@outlook.com</a>
+    </footer>
+  </div>
+</body>
+</html>

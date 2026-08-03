@@ -4,104 +4,98 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pedro Igor — Apps</title>
-  <meta name="description" content="Where's the Key? — a real-time musical key detector for Android. Play a few notes and instantly see the key you're in." />
+  <meta name="description" content="Mobile apps by Pedro Igor: Where's the Key?, Tuner, and Bíblia Todo Dia." />
   <style>
     :root {
-      --bg: #ffffff;
-      --card: #f6f6f9;
-      --text: #14121f;
-      --muted: #5b5870;
-      --accent: #1B0A8C;
-      --accent-fg: #ffffff;
-      --border: #e5e4ee;
+      --bg: #ffffff; --card: #f6f6f9; --text: #14121f;
+      --muted: #5b5870; --accent: #1B0A8C; --accent-fg: #ffffff; --border: #e5e4ee;
     }
     @media (prefers-color-scheme: dark) {
       :root {
-        --bg: #0d0b1a;
-        --card: #16132a;
-        --text: #f2f1f8;
-        --muted: #a6a2c0;
-        --accent: #6c5cff;
-        --accent-fg: #ffffff;
-        --border: #262143;
+        --bg: #0d0b1a; --card: #16132a; --text: #f2f1f8;
+        --muted: #a6a2c0; --accent: #6c5cff; --accent-fg: #ffffff; --border: #262143;
       }
     }
     * { box-sizing: border-box; }
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
+      background: var(--bg); color: var(--text); line-height: 1.6;
       -webkit-font-smoothing: antialiased;
     }
-    .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 64px; }
-    header { text-align: center; margin-bottom: 40px; }
-    .logo {
-      width: 88px; height: 88px; border-radius: 22px;
-      background: var(--accent); color: var(--accent-fg);
-      display: inline-flex; align-items: center; justify-content: center;
-      font-size: 44px; margin-bottom: 20px;
-    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 48px 24px 64px; }
+    header { text-align: center; margin-bottom: 44px; }
     h1 { font-size: 2rem; margin: 0 0 8px; }
     .tagline { color: var(--muted); font-size: 1.1rem; margin: 0; }
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 28px;
-      margin: 20px 0;
+    .app {
+      display: flex; gap: 18px; align-items: center;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 20px 22px; margin: 16px 0;
     }
-    h2 { font-size: 1.25rem; margin: 0 0 12px; }
-    ul { margin: 0; padding-left: 20px; color: var(--muted); }
-    li { margin: 6px 0; }
-    .btn {
-      display: inline-block;
+    .app .emoji {
+      flex-shrink: 0; width: 60px; height: 60px; border-radius: 15px;
       background: var(--accent); color: var(--accent-fg);
-      text-decoration: none; font-weight: 600;
-      padding: 12px 22px; border-radius: 10px;
-      margin-top: 8px;
+      display: flex; align-items: center; justify-content: center; font-size: 30px;
+    }
+    .app .body { flex: 1; min-width: 0; }
+    .app h2 { font-size: 1.15rem; margin: 0 0 4px; }
+    .app p { color: var(--muted); margin: 0 0 10px; font-size: 0.95rem; }
+    .links a {
+      font-size: 0.85rem; text-decoration: none; color: var(--accent);
+      font-weight: 600; margin-right: 16px; white-space: nowrap;
     }
     footer {
       text-align: center; color: var(--muted); font-size: 0.9rem;
-      margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border);
+      margin-top: 44px; padding-top: 24px; border-top: 1px solid var(--border);
     }
-    footer a { color: var(--accent); }
     a { color: var(--accent); }
   </style>
 </head>
 <body>
   <div class="wrap">
     <header>
-      <div class="logo">🎹</div>
-      <h1>Where's the Key?</h1>
-      <p class="tagline">Real-time musical key detection for Android.</p>
+      <h1>Apps by Pedro Igor</h1>
+      <p class="tagline">Small, focused mobile apps for musicians and readers.</p>
     </header>
 
-    <div class="card">
-      <h2>About the app</h2>
-      <p style="color: var(--muted); margin-top: 0;">
-        Where's the Key? listens through your microphone and tells you, in real time,
-        which musical key you're playing in. Point it at a piano, guitar, or any
-        instrument, play a few notes, and get an instant answer — no setup, no account.
-      </p>
-      <ul>
-        <li>Instant, on-device key detection</li>
-        <li>Works with any acoustic or digital instrument</li>
-        <li>Audio is processed live and never stored or uploaded</li>
-      </ul>
-      <a class="btn" href="https://play.google.com/store/apps/details?id=com.pedroeagledev.wheresthekey">Get it on Google Play</a>
+    <div class="app">
+      <div class="emoji">🎹</div>
+      <div class="body">
+        <h2>Where's the Key?</h2>
+        <p>Real-time musical key detection — play a few notes and instantly see the key you're in.</p>
+        <div class="links">
+          <a href="https://play.google.com/store/apps/details?id=com.pedroeagledev.wheresthekey">Google Play ↗</a>
+          <a href="./privacy-wheresthekey.html">Privacy Policy</a>
+        </div>
+      </div>
     </div>
 
-    <div class="card">
-      <h2>Legal</h2>
-      <ul>
-        <li><a href="./privacy.html">Privacy Policy</a></li>
-      </ul>
+    <div class="app">
+      <div class="emoji">🎸</div>
+      <div class="body">
+        <h2>Tuner</h2>
+        <p>A precise chromatic tuner for guitar, bass, violin, ukulele and more.</p>
+        <div class="links">
+          <a href="https://play.google.com/store/apps/details?id=com.pedroeagledev.tuner">Google Play ↗</a>
+          <a href="./privacy-tuner.html">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="app">
+      <div class="emoji">📖</div>
+      <div class="body">
+        <h2>Bíblia Todo Dia</h2>
+        <p>Daily Bible reading with reminders and audio, in Portuguese and English.</p>
+        <div class="links">
+          <a href="https://play.google.com/store/apps/details?id=com.pedroeagledev.bibleeveryday">Google Play ↗</a>
+          <a href="./privacy-bibliatododia.html">Privacy Policy</a>
+        </div>
+      </div>
     </div>
 
     <footer>
-      Made by Pedro Igor · <a href="mailto:pedroigor.silva@outlook.com">pedroigor.silva@outlook.com</a>
+      Made by Pedro Igor · <a href="mailto:pedroeagledev@gmail.com">pedroeagledev@gmail.com</a>
     </footer>
   </div>
 </body>

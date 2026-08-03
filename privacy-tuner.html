@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Tuner</title>
+  <meta name="description" content="Privacy Policy for the Tuner app." />
+  <style>
+    :root { --bg:#fff; --card:#f6f6f9; --text:#14121f; --muted:#5b5870; --accent:#1B0A8C; --border:#e5e4ee; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#0d0b1a; --card:#16132a; --text:#f2f1f8; --muted:#a6a2c0; --accent:#6c5cff; --border:#262143; }
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      background:var(--bg); color:var(--text); line-height:1.7; -webkit-font-smoothing:antialiased; }
+    .wrap { max-width:720px; margin:0 auto; padding:48px 24px 64px; }
+    h1 { font-size:1.8rem; margin:0 0 4px; }
+    .updated { color:var(--muted); font-size:0.9rem; margin:0 0 28px; }
+    h2 { font-size:1.2rem; margin:32px 0 8px; }
+    h3 { font-size:1rem; margin:20px 0 4px; }
+    p, li { color:var(--muted); }
+    a { color:var(--accent); }
+    ul { padding-left:20px; }
+    .back { display:inline-block; margin-bottom:24px; color:var(--accent); text-decoration:none; font-size:0.9rem; }
+    .ads { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:2px 20px 12px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="./index.html">← All apps</a>
+    <h1>Privacy Policy — Tuner</h1>
+    <p class="updated">Last updated: August 2026</p>
+
+    <p>Tuner (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application Tuner (the “App”).</p>
+
+    <h2>Information We Collect</h2>
+
+    <h3>1. Automatically Collected Information</h3>
+    <p><strong>Device Information:</strong></p>
+    <ul>
+      <li>Device type and operating system (iOS/Android)</li>
+      <li>Device language and locale settings</li>
+      <li>App version and usage analytics</li>
+    </ul>
+    <p><strong>Audio Data:</strong></p>
+    <ul>
+      <li>Real-time audio frequency detection for instrument tuning</li>
+      <li>Audio amplitude/volume levels for tuning accuracy</li>
+      <li>Pitch detection data processed locally on your device</li>
+    </ul>
+    <p><strong>Advertising Data:</strong></p>
+    <ul>
+      <li>The App displays ads through Google AdMob, which may collect your device's advertising identifier, IP address, and general device/usage data to serve and measure ads (see “Advertising” below)</li>
+    </ul>
+
+    <h3>2. User-Generated Information</h3>
+    <p><strong>App Settings:</strong></p>
+    <ul>
+      <li>Selected instrument type (Guitar, Bass, Violin, Viola, Cello, Ukulele, Banjo, etc.)</li>
+      <li>Selected string for tuning</li>
+      <li>Preferred tuning mode (Free Mode or Instrument Mode)</li>
+      <li>Theme preferences (dark/light mode)</li>
+      <li>App language settings</li>
+    </ul>
+
+    <h3>3. Technical Data</h3>
+    <p><strong>Local Storage:</strong> All app settings, instrument selections, and preferences are stored locally on your device using AsyncStorage.</p>
+
+    <p><strong>Microphone Access:</strong></p>
+    <ul>
+      <li>The app requires microphone permission to detect audio frequencies for tuning</li>
+      <li>Audio data is processed in real-time and never stored or transmitted</li>
+      <li>All audio processing occurs locally on your device</li>
+    </ul>
+
+    <h2>Advertising</h2>
+    <div class="ads">
+      <p>The App displays advertisements through <strong>Google AdMob</strong>. To serve and measure ads, Google and its partners may collect and process data such as your device's advertising identifier, IP address, and general device and usage information, in accordance with Google's policies. Depending on your consent and region, ads may be personalized or non-personalized.</p>
+      <ul>
+        <li>How Google uses data: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">policies.google.com/technologies/ads</a></li>
+        <li>You can reset or opt out of your advertising ID at any time in <em>Settings → Google → Ads</em> (Android).</li>
+      </ul>
+    </div>
+
+    <h2>How We Use Your Information</h2>
+    <ul>
+      <li><strong>Core functionality:</strong> provide accurate instrument tuning through real-time pitch detection, display frequency/note information, support multiple instruments and tuning modes, and sync your preferences across sessions</li>
+      <li><strong>Audio processing:</strong> analyze microphone audio locally to detect pitch and frequency and calculate tuning accuracy — audio is never stored or transmitted</li>
+      <li><strong>Advertising:</strong> display ads via Google AdMob to support the App</li>
+      <li><strong>App improvement:</strong> optimize performance and enhance tuning accuracy</li>
+    </ul>
+
+    <h2>Data Storage and Security</h2>
+    <ul>
+      <li>App settings, preferences, and instrument selections are stored locally on your device and protected by device-level security</li>
+      <li>All audio processing occurs in real-time on your device; audio is never recorded, stored, or transmitted</li>
+      <li>The App's core tuning features work entirely offline. Network access is used only to load advertisements through Google AdMob</li>
+      <li>We do not operate our own servers and do not transmit your personal data to us</li>
+    </ul>
+
+    <h2>Third-Party Services</h2>
+    <p><strong>Google AdMob</strong> — Purpose: display advertising. Data: advertising identifier, IP address, device/usage data. Policy: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">policies.google.com/technologies/ads</a></p>
+    <p><strong>Expo</strong> — Purpose: app framework/runtime. Data: standard device information. Policy: <a href="https://expo.dev/privacy" target="_blank" rel="noopener">expo.dev/privacy</a></p>
+    <p><strong>react-native-pitchy</strong> — Purpose: real-time pitch and frequency detection. Data: audio processed locally on your device only.</p>
+    <p><strong>AsyncStorage</strong> — Purpose: local storage of app settings. Data: preferences stored on device only.</p>
+
+    <h2>Data Sharing</h2>
+    <p>We do not sell, trade, or rent your personal information. The only third party that receives data is Google AdMob, solely to display advertising as described above. All other data is stored and processed locally on your device.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>Our app does not knowingly collect personal information from children under 13. The app is designed for general audiences. If you believe we have collected information from a child under 13, please contact us immediately.</p>
+
+    <h2>Your Privacy Rights</h2>
+    <ul>
+      <li><strong>Access / Modify:</strong> view and change your settings within the app</li>
+      <li><strong>Delete:</strong> remove all local data by clearing app data or uninstalling</li>
+      <li><strong>Control:</strong> grant or revoke microphone permission, and control ad personalization, through your device settings</li>
+    </ul>
+
+    <h2>Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of material changes by posting the new policy and updating the “Last updated” date.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this Privacy Policy? Contact us at <a href="mailto:pedroeagledev@gmail.com">pedroeagledev@gmail.com</a>.</p>
+
+    <p style="margin-top:32px;">By using Tuner, you consent to the collection and use of information in accordance with this Privacy Policy.</p>
+  </div>
+</body>
+</html>
